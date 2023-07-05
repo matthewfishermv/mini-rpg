@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "tsc && npm run copy-files",
+    "copy-files": "cp ./src/html/* ./dist/"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.16"
+  }
+}
